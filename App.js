@@ -25,7 +25,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import SplashScreen from 'react-native-splash-screen';
-
+import Icon from 'react-native-vector-icons/FontAwesome';
 type Props = {};
 export default class App extends Component<Props> {
   componentDidMount () {
@@ -41,11 +41,7 @@ export default class App extends Component<Props> {
           style={styles.scrollView}
         >
           <Header />
-          {global.HermesInternal == null
-            ? null
-            : <View style={styles.engine}>
-                <Text style={styles.footer}>Engine: Hermes</Text>
-              </View>}
+          <Icon name="lock" size={15} color="#515C6F" padding={10} />
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
