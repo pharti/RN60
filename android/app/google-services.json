@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "970774936669",
+    "firebase_url": "https://ohc-app.firebaseio.com",
+    "project_id": "ohc-app",
+    "storage_bucket": "ohc-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970774936669:android:d6b128edb3d41c29",
+        "android_client_info": {
+          "package_name": "com.overture.health"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970774936669-717hmk463pjfe6522t5khisvs4795v03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ8H58dwvGAeoWkkgVK08PiFMg_oMgvrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970774936669-717hmk463pjfe6522t5khisvs4795v03.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "970774936669-q0lu9n4a9ousopi5mp0rcl4eabpfi64e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.overture.health"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
